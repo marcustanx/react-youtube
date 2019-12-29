@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Top 5 Videos",
+  "name": "TOP 5: Featured Videos on Youtube",
   "icons": [
     {
       "src": "favicon.ico",

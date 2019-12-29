@@ -12,10 +12,10 @@ class App extends React.Component {
 
   componentDidMount() {
     const terms = [
-      'because geek',
-      'tim tracker',
+      'new year 2020',
+      'malaysia latest trends',
       'game of thrones',
-      'good mythical morning'
+      'fitness training tips'
     ]
     this.onTermSubmit(terms[Math.floor(Math.random()*terms.length)])
   }
