@@ -15,7 +15,7 @@ class App extends React.Component {
       'new year 2020',
       'malaysia latest trends',
       'game of thrones',
-      'fitness training tips'
+      'muscle training tips'
     ]
     this.onTermSubmit(terms[Math.floor(Math.random()*terms.length)])
   }
