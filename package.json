@@ -27,6 +27,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
+    "firebase": "^7.6.1",
     "gh-pages": "^2.1.1"
   }
 }
