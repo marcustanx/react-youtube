@@ -3,6 +3,7 @@ import SearchBar from './SearchBar'
 import youtube from '../apis/youtube'
 import VideoList from './VideoList'
 import VideoDetail from './VideoDetail'
+import './VideoItem.css'
 
 class App extends React.Component {
   state = {
@@ -14,7 +15,7 @@ class App extends React.Component {
     const terms = [
       'malaysia new year 2020',
       'malaysia latest trends',
-      'game of thrones',
+      'CNY 2020 malaysia',
       'KL fitness training classes'
     ]
     this.onTermSubmit(terms[Math.floor(Math.random()*terms.length)])
@@ -39,7 +40,9 @@ class App extends React.Component {
 
   render() {
     return (
-      <div className="ui container">
+      <div className="page-title">
+      <h1>TOP 5: Featured Videos on Youtube</h1>
+      <div className="container">
         <SearchBar onFormSubmit={this.onTermSubmit}  />
         <div className="ui grid">
           <div className="ui row">
@@ -53,6 +56,7 @@ class App extends React.Component {
               />
             </div>
           </div>
+        </div>
         </div>
       </div>
     )
