@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/react-youtube/static/js/runtime~main.4e3ce4fa.js"
   },
   {
-    "revision": "4c7ef826aad227d42b761faff4b85d7e",
+    "revision": "c06e9517665706b538bb754dcb144459",
     "url": "/react-youtube/index.html"
   }
 ];
