@@ -2,7 +2,7 @@
   "name": "react-video",
   "version": "1.0.3",
   "private": true,
-  "homepage": "https://peaceful-caverns-83368.herokuapp.com/",
+  "homepage": "http://marcustax.github.io/react-youtube",
   "dependencies": {
     "axios": "^0.18.0",
     "express": "^4.17.1",
